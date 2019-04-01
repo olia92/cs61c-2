@@ -1,4 +1,4 @@
-CFLAGS?=-Wall -Wno-unused-result -march=haswell -std=c99 -fopenmp
+CFLAGS?=-Wall -Wno-unused-result -march=haswell -std=c99 -fopenmp -O3
 
 benchmark : benchmark.o network.o layers.o volume.o
 	gcc $(CFLAGS) -o benchmark benchmark.o network.o layers.o volume.o -lm

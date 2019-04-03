@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo
 echo '          *** CS 61C, Spring 2019: Project 4 ***'
 echo

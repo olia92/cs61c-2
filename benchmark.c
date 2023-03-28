@@ -9,7 +9,7 @@
 #include "volume.h"
 
 // Place where test data is stored on instructional machines.
-const char *DATA_FOLDER = "/home/ff/cs61c/proj4/cifar-10-batches-bin";
+const char *DATA_FOLDER = "../cifar-10-batches-bin";
 const int DEFAULT_BENCHMARK_SIZE = 1200;
 const int PARTEST_SIZE = 1000;
 
